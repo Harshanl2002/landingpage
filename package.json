@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir=build",
-    "deploy":"gh-pages -d build",
+    "build": "tsc && vite build --outDir=docs",
+    "deploy":"gh-pages -d tsc && vite build --outDir=build",
     "predeploy":"npm run build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
