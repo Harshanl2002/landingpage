@@ -55,7 +55,6 @@
 @media only screen and (max-width: 600px) {
     .container
     {
-        width: max-content;
         min-height:25rem;
         padding: 0;
         justify-content: start;
