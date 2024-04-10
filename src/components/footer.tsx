@@ -4,7 +4,7 @@ import { FaTwitter,FaGooglePlusG } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='container'>
+    <div className='footercontainer'>
         <div className='footer'>
             <p className='logo dm-sans'>Startup </p>
             <div className='footermenu1 dm-sans'>
