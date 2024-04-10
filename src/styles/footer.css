@@ -1,4 +1,4 @@
-.container
+.footercontainer
 {
     min-height: 8.5rem;
     max-height: 8.6rem;
@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: clip;
 }
 .logo
 {
@@ -53,7 +54,7 @@
 }
 
 @media only screen and (max-width: 1023px) {
-    .container
+    .footercontainer
     {
         width: 100dvw;
         min-height:25rem;
