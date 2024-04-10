@@ -52,10 +52,10 @@
     font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .container
     {
-        width: max-content;
+        width: 100dvw;
         min-height:25rem;
         padding: 0;
         justify-content: start;
